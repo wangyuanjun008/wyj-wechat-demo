@@ -1,4 +1,5 @@
 package com.wyj.wechart.message.req;
+
 /**
  * 请求消息之地理位置消息
  * 
@@ -7,17 +8,19 @@ package com.wyj.wechart.message.req;
  * @date：2018年1月23日 下午1:44:56
  */
 public class LocationMessage extends BaseMessage {
-    
+
     // 地理位置维度
     private String Location_X;
+
     // 地理位置经度
     private String Location_Y;
+
     // 地图缩放大小
     private String Scale;
+
     // 地理位置信息
     private String Label;
 
-    
     public String getLocation_X() {
         return Location_X;
     }
@@ -49,4 +52,4 @@ public class LocationMessage extends BaseMessage {
     public void setLabel(String label) {
         Label = label;
     }
-}   
+}

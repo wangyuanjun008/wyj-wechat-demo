@@ -1,4 +1,5 @@
 package com.wyj.wechart.message.resp;
+
 /**
  * 音乐消息
  * 
@@ -7,6 +8,7 @@ package com.wyj.wechart.message.resp;
  * @date：2018年1月23日 下午1:55:28
  */
 public class MusicMessage extends BaseMessage {
+
     // 音乐
     private Music Music;
 

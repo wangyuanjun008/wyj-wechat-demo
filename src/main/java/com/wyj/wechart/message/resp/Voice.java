@@ -8,6 +8,7 @@ package com.wyj.wechart.message.resp;
  * @date：2018年1月23日 下午1:52:02
  */
 public class Voice {
+
     // 媒体文件id
     private String MediaId;
 

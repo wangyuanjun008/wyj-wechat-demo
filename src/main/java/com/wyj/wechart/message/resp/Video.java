@@ -1,4 +1,5 @@
 package com.wyj.wechart.message.resp;
+
 /**
  * 视频model
  * 
@@ -7,8 +8,10 @@ package com.wyj.wechart.message.resp;
  * @date：2018年1月23日 下午1:53:28
  */
 public class Video {
+
     // 媒体文件id
     private String MediaId;
+
     // 缩略图的媒体id
     private String ThumbMediaId;
 
