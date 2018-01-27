@@ -18,7 +18,7 @@ import com.wyj.wechart.utils.SignUtil;
  * @author：WangYuanJun
  * @date：2018年1月23日 下午2:17:39
  */
-@WebServlet(urlPatterns = "/wechart", description = "wechart")
+@WebServlet(urlPatterns = "/wechat", description = "wechat")
 public class CoreServlet extends HttpServlet {
     private static final long serialVersionUID = -8685285401859800066L;
 
