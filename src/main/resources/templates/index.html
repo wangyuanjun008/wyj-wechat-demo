@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>OAuth2.0网页授权</title>
+</head>
+<body>
+
+<#if snsUserInfo??>
+    <table width="100%" cellspacing="0" cellpadding="0">
+        <tr><td width="20%">属性</td><td width="80%">值</td></tr>
+        <tr><td>OpenID</td><td>${snsUserInfo.openId}</td></tr>
+        <tr><td>昵称</td><td>${snsUserInfo.nickname}</td></tr>
+        <tr><td>性别</td><td>${snsUserInfo.sex}</td></tr>
+        <tr><td>国家</td><td>${snsUserInfo.country}</td></tr>
+        <tr><td>省份</td><td>${snsUserInfo.province}</td></tr>
+        <tr><td>城市</td><td>${snsUserInfo.city}</td></tr>
+        <tr><td>头像</td><td>${snsUserInfo.headImgUrl}</td></tr>
+        <tr><td>state:</td><td>${state}</td></tr>
+    </table>
+	
+	<#else>
+	<p>用户不同意授权,未获取到用户信息！</p>
+</#if>
+
+
+
+</body>
+</html>
